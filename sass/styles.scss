@@ -1,0 +1,25 @@
+// Varibles
+// - Colors
+$white: hsl(0, 0%, 100%);
+$lightGray: hsl(212, 45%, 89%);
+$grayishBlue: hsl(220, 15%, 55%);
+$darkBlue: hsl(218, 44%, 22%);
+// - Fonts
+$paraFont : 15px;
+
+
+
+* {
+  // font-family: 'Mulish', sans-serif;
+  // font-family: 'Open Sans', sans-serif;
+  font-family: 'Outfit', sans-serif;
+  // font-family: 'Overpass', sans-serif;
+  // font-family: 'Public Sans', sans-serif;
+  // font-family: 'Roboto Mono', monospace;
+}
+body {
+  background-color: $lightGray;
+}
+
+
+@import "./card";
